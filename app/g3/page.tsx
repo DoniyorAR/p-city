@@ -34,7 +34,7 @@ async function createDemoCoupon(treeId: string) {
 type Step = 1 | 2 | 3;
 
 /* ----------------- Component ----------------- */
-export default function G3PageDemo(): JSX.Element {
+export default function G3PageDemo(): {
   const [step, setStep] = useState<Step>(1);
 
   // Input step
